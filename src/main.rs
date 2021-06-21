@@ -46,7 +46,7 @@ fn on_activate(application: &gtk::Application) {
 
 fn main() {
   let app =
-    gtk::Application::new(Some("com.github.smallkirby.rkeyshower"), Default::default()).unwrap();
+    gtk::Application::new(Some("com.github.smallkirby.rscreenkey"), Default::default()).unwrap();
   app.connect_activate(|app| on_activate(app));
   app.run(&std::env::args().collect::<Vec<_>>());
 }
