@@ -525,9 +525,11 @@ dependencies = [
 name = "rkeyshower"
 version = "0.1.0"
 dependencies = [
+ "gdk",
  "gio",
  "glib",
  "gtk",
+ "pango",
 ]
 
 [[package]]

@@ -1,6 +1,6 @@
 # 🚧 UNDER CONSTRUCTION 🚧
 
-# rkeyshower: Key-input shower written in Rust
+# rkeyshower: Key-input visualizer written in Rust
 
 ## Progress
 | Status | Functionality |
